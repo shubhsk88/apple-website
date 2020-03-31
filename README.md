@@ -22,8 +22,8 @@ I built the layout using grid.
 
 👤 **Shubham Singh**
 
-- Github: [@githubhandle](https://github.com/shubhsk88)
-- Twitter: [@twitterhandle](twitter.com/shubski)
+- Github: [@shubhsk88](https://github.com/shubhsk88)
+- Twitter: [@shubhski](twitter.com/shubski)
 - Linkedin: [linkedin](https://www.linkedin.com/in/shubham-singh-130349140/)
 
 ## 🤝 Contributing
