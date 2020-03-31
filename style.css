@@ -84,13 +84,14 @@ body {
   position: relative;
   margin: 0 auto;
   height: 5vh;
-  background: rgb(150, 149, 149);
-  background: linear-gradient(
-    0deg,
-    rgba(150, 149, 149, 1) 0%,
-    rgba(97, 92, 92, 1) 50%,
-    rgba(148, 146, 144, 1) 100%
-  );
+
+  background: rgb(150, 149, 149)
+    linear-gradient(
+      0deg,
+      rgba(150, 149, 149, 1) 0%,
+      rgba(97, 92, 92, 1) 50%,
+      rgba(148, 146, 144, 1) 100%
+    );
   border-radius: 10px;
   margin-top: 6rem;
   list-style: none;
@@ -172,8 +173,8 @@ img {
 
 .footer__shop {
   float: left;
-
   margin-top: -2rem;
+  padding-top: 2rem;
 }
 
 .footer__titles {
@@ -199,8 +200,4 @@ img {
 
 .language {
   border: none;
-}
-
-.footer__shop {
-  padding-top: 2rem;
 }
