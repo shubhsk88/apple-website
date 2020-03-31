@@ -5,26 +5,20 @@ This website contains an navbar and footer
 I built the navbar using the color-gradient and used flexbox to align those text and use transition properties
 I built the layout using grid.
 
-![screenshot](https://github.com/shubhsk88/newyork-times-clone/blob/clone/img/screenshot2.png)
+![screenshot](https://github.com/shubhsk88/apple-website/blob/features/img/screenshot.PNG)
 
 ## Built With
 
 - HTML,
 - CSS,
 - Used fontawesome.com for the icons.
-  -Roboto Font
+- Roboto Font
 
 ## Live Demo
 
-[Live Demo](https://rawcdn.githack.com/shubhsk88/newyork-times-clone/1d0fc557878baa9914b92ae7c4c9916a7b2d4393/index.html)
+[Live Demo](https://rawcdn.githack.com/shubhsk88/apple-website/310153633c1fce9f2979ccdc8db08fdd1482c19d/index.html)
 
 ## Authors
-
-👤 **Mauricio Fow**
-
-- Github: [@githubhandle](https://github.com/thedekerone)
-- Twitter: [@twitterhandle](https://twitter.com/mauricio_fow)
-- Linkedin: [linkedin](https://www.linkedin.com/in/mauricio-fow-aranibar-b2173514b/)
 
 👤 **Shubham Singh**
 
