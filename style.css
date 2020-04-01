@@ -13,6 +13,14 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.flex {
+  display: flex;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
 .container {
   display: grid;
   width: 80vw;
@@ -27,20 +35,14 @@ body {
   background-size: cover;
   background-position: bottom center;
   background-repeat: no-repeat;
-  display: flex;
   align-items: center;
-  flex-direction: column;
-}
-
-.main {
-  display: flex;
 }
 
 .header {
   width: 60%;
-  display: flex;
+
   align-items: center;
-  flex-direction: column;
+  
   margin: 0 auto;
   margin-top: 8rem;
 }
@@ -79,13 +81,17 @@ body {
 }
 
 .nav__list {
-  display: flex;
   width: 60vw;
   position: relative;
   margin: 0 auto;
   height: 5vh;
   background: rgb(150, 149, 149);
-  background: linear-gradient(0deg, rgba(150, 149, 149, 1) 0%, rgba(97, 92, 92, 1) 50%, rgba(148, 146, 144, 1) 100%);
+  background: linear-gradient(
+    0deg,
+    rgba(150, 149, 149, 1) 0%,
+    rgba(97, 92, 92, 1) 50%,
+    rgba(148, 146, 144, 1) 100%
+  );
   border-radius: 10px;
   margin-top: 6rem;
   list-style: none;
@@ -101,7 +107,6 @@ body {
 }
 
 .nav__search {
-  display: flex;
   flex-direction: row-reverse;
   flex: 0 0 1rem;
   position: relative;
@@ -150,8 +155,7 @@ img {
 }
 
 .footer {
-  display: flex;
-  flex-direction: column;
+  
   width: 80%;
   margin: 0 auto;
 }
@@ -176,7 +180,6 @@ img {
 }
 
 .category {
-  display: flex;
   list-style: none;
   font-size: 1rem;
   justify-content: space-evenly;
