@@ -13,20 +13,30 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.flex {
+.flex,.flex-column ,.nav__option:not(:last-child){
   display: flex;
 }
 
 .flex-column {
-  display: flex;
   flex-direction: column;
+}
+
+.header__title,.header__body,.header__video a,.nav__apple > *,.fa-search,.nav__option> a{
+  color:white;
+}
+
+.container,.header,.nav__list,.footer{
+  margin: 0 auto;
+}
+
+.header,.nav__list,.top,.nav__option:not(:last-child){
+  align-items: center;
 }
 
 .container {
   display: grid;
-  width: 80vw;
+  width: 90vw;
   height: 100vh;
-  margin: 0 auto;
   grid-template-columns: 1fr;
   grid-template-rows: 6fr 3fr 1fr;
 }
@@ -36,18 +46,14 @@ body {
   background-size: cover;
   background-position: bottom center;
   background-repeat: no-repeat;
-  align-items: center;
 }
 
 .header {
   width: 60%;
-  align-items: center;
-  margin: 0 auto;
   margin-top: 8rem;
 }
 
 .header__title {
-  color: white;
   font-size: 7.8rem;
   font-weight: 100;
 }
@@ -57,7 +63,6 @@ body {
   font-size: 3rem;
   font-weight: 100;
   text-align: center;
-  color: white;
 }
 
 .header__video {
@@ -67,38 +72,35 @@ body {
 .header__video a {
   font-size: 2rem;
   font-weight: 100;
-  color: white;
   text-decoration: none;
 }
 
-.nav__apple > * {
-  font-size: 2rem;
-  padding: 1rem 2rem 1rem 1rem;
-  border-right: 1px solid #fff;
-  color: white;
-  height: 100%;
-}
+
 
 .nav__list {
-  width: 60vw;
+  width: 100%;
   position: relative;
-  margin: 0 auto;
-  height: 5vh;
+  height: 5vh;  
   background: rgb(150, 149, 149);
   background: linear-gradient(0deg, rgba(150, 149, 149, 1) 0%, rgba(97, 92, 92, 1) 50%, rgba(148, 146, 144, 1) 100%);
   border-radius: 10px;
   margin-top: 6rem;
   list-style: none;
-  justify-content: space-around;
-  align-items: center;
+}
+
+.nav__list>*{
+  padding:0 4rem; 
+}
+
+.nav__option:hover{
+  background-color: rgb(61, 58, 58);
 }
 
 .nav__option:not(:last-child) {
   border-right: 1px solid #d6d3d3;
-  height: 100%;
-  display: flex;
-  align-items: center;
+  height: 100%; 
 }
+
 
 .nav__search {
   flex-direction: row-reverse;
@@ -109,9 +111,9 @@ body {
 .fa-search {
   position: absolute;
   top: 25%;
-  left: 10%;
-  color: white;
+  left: 30%;
 }
+
 
 .search {
   border: none;
@@ -134,13 +136,12 @@ body {
 
 .search:focus + .fa-search {
   color: black;
+  left: 20%;
 }
 
 .nav__option > a {
   text-decoration: none;
-  color: white;
   font-size: 1.4rem;
-  margin-right: 4rem;
 }
 
 img {
@@ -150,7 +151,6 @@ img {
 
 .footer {
   width: 80%;
-  margin: 0 auto;
 }
 
 .footer__top {
