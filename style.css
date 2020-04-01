@@ -41,7 +41,7 @@ body {
 
 .header {
   width: 60%;
-  align-items: center; 
+  align-items: center;
   margin: 0 auto;
   margin-top: 8rem;
 }
@@ -149,7 +149,6 @@ img {
 }
 
 .footer {
-  
   width: 80%;
   margin: 0 auto;
 }
