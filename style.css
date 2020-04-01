@@ -16,6 +16,7 @@ body {
 .flex {
   display: flex;
 }
+
 .flex-column {
   display: flex;
   flex-direction: column;
@@ -40,9 +41,7 @@ body {
 
 .header {
   width: 60%;
-
-  align-items: center;
-  
+  align-items: center; 
   margin: 0 auto;
   margin-top: 8rem;
 }
@@ -86,12 +85,7 @@ body {
   margin: 0 auto;
   height: 5vh;
   background: rgb(150, 149, 149);
-  background: linear-gradient(
-    0deg,
-    rgba(150, 149, 149, 1) 0%,
-    rgba(97, 92, 92, 1) 50%,
-    rgba(148, 146, 144, 1) 100%
-  );
+  background: linear-gradient(0deg, rgba(150, 149, 149, 1) 0%, rgba(97, 92, 92, 1) 50%, rgba(148, 146, 144, 1) 100%);
   border-radius: 10px;
   margin-top: 6rem;
   list-style: none;
